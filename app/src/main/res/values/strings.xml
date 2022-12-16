@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Zakat Pay Application</string>
+    <string-array name="status">
+        <item>Wear</item>
+        <item>Keep</item>
+    </string-array>
+
+    <string name="copyright">Copyright@BersihJiwaSuciHarta</string>
+    <string name="About_text">Source code link </string>
+    <string name="developer"> NAME: NUR ALIAH BINTI MUFEK ZAILANI</string>
+    <string name="developer_id"> STUDENT ID : 2021793977 </string>
+    <string name="group"> GROUP: RCS2404A </string>
+    <string name="program_code"> PROGRAMME CODE : CS240</string>
+
+</resources>

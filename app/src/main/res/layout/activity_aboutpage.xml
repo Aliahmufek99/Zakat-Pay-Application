@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bgimage"
+    tools:context=".aboutpage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="74dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/about" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:text="Zakat Calculator"
+        android:textColorLink="@color/black"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dip"
+        android:text="Copyright@BersihJiwaSuciHarta"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="2dp"
+        android:text="PROGRAMME CODE: CS240"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="32dp"
+        android:text="NAME: NUR ALIAH BINTI MUFEK ZAILANI"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="2dp"
+        android:text="STUDENT ID: 2021183021"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="3dp"
+        android:text="GROUP: RCS2404A"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="178dp"
+        android:layout_marginRight="16dip"
+        android:text="Source Code Link"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+</RelativeLayout>
